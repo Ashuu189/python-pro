@@ -196,5 +196,172 @@
 # else:
 #     print(year, "is not a leap year.")
 
+# num=int(input("enter the number: "))
+
+# if num>0:
+#     print("number is positive")
+
+# elif num<0: 
+#     print("number is negative")
+
+# else:
+#     print("number is 0")
+
+# num=int(input("Enter the number: "))
+
+# if num/2==0:
+#     print("multiple of 2")
+# elif num/3==0:
+#     print("multiple of 3")
+# elif num/5==0:
+#     print("multiple of 5")
+# else:
+#     print("faaaaaaah")
+
+
+# num= int(input('enter the number--'))
+
+# if num%2==0:
+#     if num%4==0:
+#         print("Divisble by 4")
+#     else:
+#         print("even but not divisible by 4")
+# else:
+#     print("Odd number")
+
+# bal=int(input("Enter the balance--"))
+# amnt=int(input("enter the amount--"))
+
+# if amnt<=bal:
+#     if amnt%100==0:
+#         print("Transaction Successful")
+#     else:
+#         print("enter amount in multiple of 100")
+# else:
+#     print("Insufficient Balance")
+
+# string= str(input("Enter the string-- "))
+
+# if string[0]==string[-1]:
+#     print("yes its palindrome")
+# else:
+#     print("its not palindrome")
+
+# data=str(input("Enter the value-- "))
+
+# if len(data)>3:
+#     print(data[::-1])
+# else: 
+#     print("Enter valid data")
+
+# data= str(input("Enter the data--"))
+# if data=='a' or data=='e' or data=='i' or data=='o' or data=='u':
+#     print("data is vowel")
+# else:
+#     print("data is consonant")
+
+# num1= int(input("Enter the num1--"))
+# num2= int(input("Enter the num2--"))
+# num3= int(input("Enter the num3--"))
+
+# if num1<num2 and num1 < num3:
+#     print("num1 is smallest")
+
+# if num2 < num1 and num2 < num3:
+#     print("num2 is smallest")
+
+# if num3 < num1 and num3 < num2:
+#     print("num3 is smallest")
+
+# num1= int(input("Enter the num1--"))
+# num2= int(input("Enter the num2--"))
+# num3= int(input("Enter the num3--"))
+
+# if num1>num2 and num1 > num3:
+#     print("num1 is largest")
+
+# if num2 > num1 and num2 > num3:
+#     print("num2 is largest")
+
+# if num3 > num1 and num3 > num2:
+#     print("num3 is largest")
+
+# email = input("Enter your email: ")
+# password = input("Enter your password: ")
+
+# if email == "ashut.sarkar@gmail.com":
+#     if password == "ashutosh123":
+#         print("Login successful")
+#     else:
+#         print("Wrong password")
+# else:
+#     print("Invalid email")
+
+
+# amnt=int(input("Enter the amount--"))
+# age=int(input("Enter the age--"))
+# mnthincome=int(input("enter the monthly income--"))
+# creditScore=int(input("Enter the credit score--"))
+
+# if age >=21:
+#     if mnthincome >=30000: 
+#         if creditScore>=700:
+#             print("Loan approved successfully")
+
+# else:
+#     print("Youre not eligible for loan")
+
+
+# purchase_amount = int(input("Enter the purchase amount: "))
+# ispremium = input("Are you a premium member? (yes/no): ")
+
+# # Base discount
+# if purchase_amount > 10000:
+#     total = purchase_amount - (purchase_amount * 0.20)
+
+# elif purchase_amount > 5000:
+#     total = purchase_amount - (purchase_amount * 0.10)
+
+# else:
+#     total = purchase_amount
+
+# # Extra 5% discount for premium members
+# if ispremium.lower() == "yes":
+#     total = total - (total * 0.05)
+
+# print("Final bill amount:", total)
+
+# fare = 100
+
+# peak = input("Is it peak hour? (yes/no): ")
+# rain = input("Is it rainy? (yes/no): ")
+# holiday = input("Is it a holiday? (yes/no): ")
+
+# if peak.lower() == "yes":
+#     fare = fare + (fare * 0.50)
+
+# if rain.lower() == "yes":
+#     fare = fare + (fare * 0.20)
+
+# if holiday.lower() == "yes":
+#     fare = fare + (fare * 0.30)
+
+# print("Final Fare: ₹", fare)
+   
+    
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
 
 
