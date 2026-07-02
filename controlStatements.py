@@ -350,7 +350,12 @@
    
     
 
+data= str(input("Enter the data--"))
 
+if data in ('aeiouAEIOU'):
+    print("vowels")
+else:
+    print("Its a consonant")
 
 
 
