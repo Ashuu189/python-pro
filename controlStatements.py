@@ -337,12 +337,6 @@
 # rain = input("Is it rainy? (yes/no): ")
 # holiday = input("Is it a holiday? (yes/no): ")
 
-# if peak.lower() == "yes":
-#     fare = fare + (fare * 0.50)
-
-# if rain.lower() == "yes":
-#     fare = fare + (fare * 0.20)
-
 # if holiday.lower() == "yes":
 #     fare = fare + (fare * 0.30)
 
@@ -350,23 +344,174 @@
    
     
 
-data= str(input("Enter the data--"))
+# data= str(input("Enter the data--"))
+# reversed=data[::-1]
 
-if data in ('aeiouAEIOU'):
-    print("vowels")
-else:
-    print("Its a consonant")
+# if data == reversed:
+#     print("It's a palindrome")
+# else:
+#     print("It's not a palindrome")
+
+# age=int(input("Enter the age--"))
+
+# if age<13:
+#     print("Child")
+
+# elif age>=13 and age<19:
+#     print("Teenager")
+
+# elif age>=20 and age<64:
+#     print("Adult")
+
+# elif age>=64:
+#     print("Senior")
+
+# score=int(input("Enter your score--"))
+
+# if score>=90 and score < 100:
+#     print("A")
+
+# elif score>=80 and score < 89:
+#     print("B")
+
+# elif score>=70 and score < 79:
+#     print("C")
+
+# elif score>=60 and score < 69:
+#     print("D")
+
+# elif score<60 and score>0:
+#     print("FAIL")
+
+# else:
+#     print("Invalid score")
+
+# num=int(input("Enter the number--"))
+
+# if num>0:
+#     print("Positive")
+
+# elif num<0:
+#     print("negative")
+
+# elif num==0:
+#     print("zero")
+
+# num=int(input("Enter the number --"))
+
+# if elif num%3==0 or num%5==0 :
+#     print("FIZZbuzz")
+# elif num%5==0:
+#     print("FIZZ")
+
+#
+
+# year = int(input("Enter a year: "))
+
+# if (year % 400 == 0) or (year % 4 == 0 and year % 100 != 0):
+#     print(year, "is a leap year.")
+# else:
+#     print(year, "is not a leap year.")
+
+# num=int(input("Enter the number"))
+# if num%3==0 and num%5==0 :
+#     print("FIZZBUZZ")
+# elif num%3==0:
+#     print("FIZZ")
+# elif num%5==0:
+#     print("BUZZ")
+
+# fare= int(input("Enter the fare"))
+
+# if fare>0 and fare<=100:
+#     print(fare+fare*5)
 
 
+# year= int(input("Enter the year: "))
 
-    
+# if year % 4==0:
+#     if year % 100==0:
+#         if year % 400==0:
+#             print("Yes its a leap year")
+#         else:
+#             print("Not leap year")
+#     else:
+#         print("YEs its a leap year")
+# else:
+#     print("not a leap year")
+ 
+# year=int(input("Enter the year--"))
 
+# if year % 4==0:
+#     if year %100==0:
+#         if year%400==0:
+#             print("Leap year")
+#         else:
+#             print("Not a leap year")
+#     else:
+#         print("leap year")
+# else:
+#     print("not a leap year")
 
+# num=int(input("Enter the number"))
 
+# if(num%2==0):
+#     if(num%4==0):
+#         print("Divisible by 4")
+#     else:
+#         print("Even but not divisible by 4")
+# else:
+#     print("Odd number")
 
+# balance= int(input("Enter the balance--"))
 
+# amount= int(input("Enter the amount--"))
 
+# if amount<=balance:
+#     if amount%100==0:
+#         print("Transaction successful")
+#     else:
+#         print("Enter amount in multiple of 100")
+# else:
+#     print("Insufficient balance")
 
+# data=input("Enter the data--")
 
+# if type(data)==str:
+#     if data==data[::-1]:
+#         print("Yes its a palindrome")
+#     else:
+#         print("Data is string but not a palindrome")
+# else:
+#     print("Data is not a string")
 
+# data=input("Enter the data--")
+
+# if data in 'aeiouAEIOU':
+#     print("Data is a vowel")
+
+# else:
+#     print("Data is a consonant")
+
+# num1=int(input("Enter the num1--"))
+# num2=int(input("Enter the num2--"))
+# num3=int(input("Enter the num3--"))
+
+# if num1>num2 and num1>num3:
+#     if num2>num3:
+#         print("num2 is the second largest")
+#     else:
+#         print("num3 is the second largest")
+
+# elif num2>num1 and num2>num3:
+#     if num1>num3:
+#         print("num1 is the second largest")
+#     else:
+#         print("num3 is the second largest")
+
+# elif num3>num1 and num3>num2:
+#     if num1>num2:
+#         print("num1 is the second largest")
+#     else:
+#         print("num2 is the second largest")
 

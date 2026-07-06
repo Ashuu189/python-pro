@@ -39,7 +39,7 @@
 # print(poppedItem)
 # print(poppedItem[-1])
 
-d1=eval(input("Enter a dictionary: "))
-last=d1.popitem()
-last_val=last[-1]
-print("Last val: ", last_val)
+# d1=eval(input("Enter a dictionary: "))
+# last=d1.popitem()
+# last_val=last[-1]
+# print("Last val: ", last_val)
