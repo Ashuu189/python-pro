@@ -515,3 +515,51 @@
 #     else:
 #         print("num2 is the second largest")
 
+# premium_member = input("Are you a premium member (yes/no): ")
+# purchase_amount = int(input("Enter the purchase amount: "))
+
+# if premium_member == "yes":
+#     if purchase_amount > 10000:
+#         bill = purchase_amount - purchase_amount * 0.20
+#         bill = bill - bill * 0.05
+#         print("Your final bill is:", bill)
+
+#     elif purchase_amount > 5000:
+#         bill = purchase_amount - purchase_amount * 0.10
+#         bill = bill - bill * 0.05
+#         print("Your final bill is:", bill)
+
+#     else:
+#         bill = purchase_amount - purchase_amount * 0.05
+#         print("Your final bill is:", bill)
+
+# elif premium_member == "no":
+#     if purchase_amount > 10000:
+#         print("Your final bill is:", purchase_amount - purchase_amount * 0.20)
+
+#     elif purchase_amount > 5000:
+#         print("Your final bill is:", purchase_amount - purchase_amount * 0.10)
+
+#     else:
+#         print("Your final bill is:", purchase_amount)
+
+# else:
+#     print("Invalid input")
+
+# base_fare = 100
+
+# peak_hour = input("Is it peak hour? (yes/no): ")
+# is_rainy = input("Is it rainy? (yes/no): ")
+# is_holiday = input("Is it a holiday? (yes/no): ")
+
+# if is_holiday.lower() == "yes":
+#     base_fare += base_fare * 0.30
+
+# if peak_hour.lower() == "yes":
+#     base_fare += base_fare * 0.20
+
+# if is_rainy.lower() == "yes":
+#     base_fare += base_fare * 0.10
+
+# print("The final fare is:", base_fare)
+
