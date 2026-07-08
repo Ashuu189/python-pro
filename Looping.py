@@ -33,6 +33,24 @@
 #         print(i)
 #     i+=1
 
+# num=int(input("Enter the value--"))
+# sum=0
+# i=1
+# while(i<=num):
+#     sum=sum+i
+#     i+=1
+
+# print(sum)
+
+num=428
+while num>0:
+    last_digit=num%10
+    # print(last_digit)
+    num//=10
+
+
+reverse=str (num[::-1])
+print(reverse)
 
 
 

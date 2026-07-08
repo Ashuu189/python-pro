@@ -493,27 +493,27 @@
 # else:
 #     print("Data is a consonant")
 
-# num1=int(input("Enter the num1--"))
-# num2=int(input("Enter the num2--"))
-# num3=int(input("Enter the num3--"))
+num1=int(input("Enter the num1--"))
+num2=int(input("Enter the num2--"))
+num3=int(input("Enter the num3--"))
 
-# if num1>num2 and num1>num3:
-#     if num2>num3:
-#         print("num2 is the second largest")
-#     else:
-#         print("num3 is the second largest")
+if num1>num2 and num1>num3:
+    if num2>num3:
+        print("num2 is the second largest")
+    else:
+        print("num3 is the second largest")
 
-# elif num2>num1 and num2>num3:
-#     if num1>num3:
-#         print("num1 is the second largest")
-#     else:
-#         print("num3 is the second largest")
+elif num2>num1 and num2>num3:
+    if num1>num3:
+        print("num1 is the second largest")
+    else:
+        print("num3 is the second largest")
 
-# elif num3>num1 and num3>num2:
-#     if num1>num2:
-#         print("num1 is the second largest")
-#     else:
-#         print("num2 is the second largest")
+elif num3>num1 and num3>num2:
+    if num1>num2:
+        print("num1 is the second largest")
+    else:
+        print("num2 is the second largest")
 
 # premium_member = input("Are you a premium member (yes/no): ")
 # purchase_amount = int(input("Enter the purchase amount: "))
@@ -563,3 +563,29 @@
 
 # print("The final fare is:", base_fare)
 
+# num=int(input("Enter the number: "))
+
+# if num%3==0 and num%5==0:
+#     print("FIZZBUZZ")
+
+# elif num%3==0:
+#     print("FIZZ")
+
+# elif num%5==0:
+#     print("BUZZ")
+
+# units = int(input("Enter the number of units consumed: "))
+
+# if units <= 100:
+#     bill = units * 5
+
+# elif units <= 300:
+#     bill = (100 * 5) + (units - 100) * 7.5
+
+# elif units <= 500:
+#     bill = (100 * 5) + (200 * 7.5) + (units - 300) * 10
+
+# else:
+#     bill = (100 * 5) + (200 * 7.5) + (200 * 10) + (units - 500) * 15
+
+# print("Electricity Bill = ₹", bill)
