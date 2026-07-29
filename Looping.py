@@ -160,24 +160,113 @@
 
 # print("Reversed number:", reverse)
 
+# n=int(input("Enter the number--"))
+
+# count=0
+# while(n!=0):
+#     digit=n%10
+#     n=n//10
+#     if digit==0:
+#         count+=1
+
+# print(count)
+
+# Xylem or phloem no.
+
+# num=int(input("Enter the number--"))
+
+# mean_sum=0
+# last_digit=num%10
+# extreme_value=last_digit
+# num //=10
+
+# while(num>9):
+#     last=num%10
+#     mean_sum+=last
+#     num //=10
+
+# extreme_value+=num
+# print(extreme_value)
+# print(mean_sum)
+
+# if extreme_value==mean_sum:
+#     print("Xylem number")
+
+# else:
+#     print("phloem number")
 
 
+# Xylem or phloem no. Using for loop
+
+# for i in range(1,4):
+#     print("Outer Loop:",i)
+#     for j in range(1,4):
+#         print(j)
 
 
+# i=1
+# j=1
 
+# while(i<4):
+#     print("Outer Loop",i)
+#     i+=1
+
+#     j=1
+#     while(j<4):
+#         print(j)
+#         j+=1
+
+
+# list1=['hii', False, 98, 'aeroplane']
+
+# for i in list1:
+#     if type(i)==str:
+#         for j in i:
+#             if j in 'aeiouAEIOU':
+#                 print(j)
+
+# for i in range(1,6):
+#     if i==3:
+#         print(i)
+#         break
+#     print(i)
+    
+# l1=[2.3,99,10,'python',20,9-3j]
+
+# for i in l1:
+#     if type(i)==str:
+#         break
+#     print(i)
+
+# while True:
+#     password=input("Enter the password: ")
+#     if password=='admin@123':
+#         print("logged in Successfully")
+#         break
+    
+# for i in range(1,6):
+#     if i==3:
+#         continue
+#     print(i)
+
+# i=1
+# while(i<=6):
+#     if i==3:
+#         i+=1
+#         continue
+    
+#     print(i)
+#     i+=1
+
+# i=1
+# l1=[1,2.3,'hii',3,'Bye',4,False,5]
+
+# while(i<=8):
+#     if type(i)!=int:
+#         continue
+#     print(i*10)
+#     i+=1
 
     
-
-
-  
-
-
-
-
-
-   
-
-
-
 
 
