@@ -374,34 +374,75 @@
 
 # is_xylem(12326)
 
-def is_xylem(n):
-    last_digit=n%10
-    temp=n
+# def is_xylem(n):
+#     last_digit=n%10
+#     temp=n
 
-    while temp>10:
-        temp //=10
-    first_digit=temp
-    print(first_digit)
+#     while temp>10:
+#         temp //=10
+#     first_digit=temp
+#     print(first_digit)
 
-    extreme_sum=first_digit+last_digit
+#     extreme_sum=first_digit+last_digit
 
-    sum=0
-    temp=n
+#     sum=0
+#     temp=n
 
-    while temp>0:
-        digit=temp%10
-        sum=sum+digit
-        temp//=10
+#     while temp>0:
+#         digit=temp%10
+#         sum=sum+digit
+#         temp//=10
 
-    mean_sum=sum-extreme_sum
+#     mean_sum=sum-extreme_sum
 
-    if extreme_sum==mean_sum:
-        print("Xylem")
+#     if extreme_sum==mean_sum:
+#         print("Xylem")
+#     else:
+#         print("Pholem")
+
+# is_xylem(1234)
+
+
+# def factorial(n):
+#     fact=1
+#     while(n>=1):
+#         fact=fact*n
+#         n-=1
+#     return fact
+
+# print_fct=factorial(5)
+# print(print_fct)
+
+# l1=[2,3,5]
+
+# l2=[]
+
+# for i in l1:
+#     ans=factorial(i)
+#     l2.append(ans)
+
+# print(l2)
+
+def is_arm(n):
+    original=n
+    power= len(str(n))
+    arm=0
+
+    while(n!=0):
+     digit=n%10
+     arm=arm+digit**power
+     n//=10
+
+    if original==arm:
+       return True
     else:
-        print("Pholem")
+       return False
 
-is_xylem(1234)
+num= int(input("enter the range--"))
 
+for i in range(1,num+1):
+   if is_arm(i)==True:
+      print(i)
 
 
 
